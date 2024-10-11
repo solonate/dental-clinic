@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+nav{
+    text-decoration: none;
+    display: flex;
+}
+.ramilo{
+    font-size: 30px;
+    padding: 30px;
+    color: white;
+    background-color: rgba(37, 191, 191, 0.799);
+}
+
+.menu{
+    background-color: rgba(37, 191, 191, 0.799);
+    width: 10%;
+    height: 100vh;
+    color: white;
+    transform: translateX(0);
+    filter: blur(0px);
+    opacity: 100;
+    transition: 1s;
+}
+
+
+
+.inside-menu{
+    margin-left: 5%;
+    margin: 0 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgba(37, 191, 191, 0.799);
+    transition: 0.5s;
+    color: white;
+    display: flex;
+    font-size: larger;
+    font-style: normal;
+    margin: 12px;
+    padding: 120;
+    
+    
+}
+.menu a:hover{
+    color: rgba(37, 191, 191, 0.799);
+    transition: 0.5s;
+    border: solid white 2px;
+   background-color: white;
+   margin:12px;
+}
+
+#hide{
+    display: none;
+   
+}
+
+.robert{
+    position: absolute;
+    left:26%;
+    margin-top: 12%;
+    height: 50vh;
+    padding: 12px;
+    background-color: rgba(37, 191, 191, 0.799);
+}
+.dental-ramilo{
+    text-align: center;
+    margin-top: -40%;
+    margin-bottom: 30%;
+    color: rgba(37, 191, 191, 0.799);
+    font-style:oblique;
+}
+
+.demo-button{
+  margin-left: 42%;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    
+}
+.button-demo{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    background-color: rgba(37, 191, 191, 0.799);
+}
+.button-demo:hover{
+    color:rgba(37, 191, 191, 0.799);
+    background: white;
+    transition:0.5s;
+    box-shadow: -15px 15px 15px black,
+    15px 15px 15px rgba(37, 191, 191, 0.799);
+}
+.container{
+    position: relative;
+}
+.demo-wave{
+    position: relative;
+    display: flex;
+    margin-top: -8%;
+
+
+}
